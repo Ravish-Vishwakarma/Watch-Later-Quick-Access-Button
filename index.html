@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>YouTube Watch Later Adder</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        #custom-watch-later {
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        iframe {
+            width: 560px;
+            height: 315px;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Add Video to Watch Later</h1>
+    <iframe id="yt-frame" src="https://www.youtube.com/watch?v=qO-Ctcvrd4s" allowfullscreen></iframe>
+    <br />
+    <button id="custom-watch-later">Add to Watch Later</button>
+
+    <script src="inject.js"></script>
+</body>
+
+</html>
